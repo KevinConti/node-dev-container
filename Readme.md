@@ -8,14 +8,15 @@ It also includes some nicities - A nice theme, a standardized formatting policy 
 
 There is some 1-time setup, but afterwards you can skip straight to Step 4.
 
+1. Install Docker [(link)](https://docs.docker.com/get-docker/)
 1. Open in VS Code
-2. Install extensions.
+1. Install extensions.
 
    - Docker by Microsoft
    - Remote - Containers by Microsoft
 
-3. Control/Cmd+Shift+P (Command Pallete) -> Reload Window
-4. Click bottom left -> Open in Container
+1. Control/Cmd+Shift+P (Command Pallete) -> Reload Window
+1. Click bottom left -> Open in Container
 
 ### Step 2: Running the node application
 
