@@ -9,6 +9,7 @@ It also includes some nicities - A nice theme, a standardized formatting policy 
 There is some 1-time setup, but afterwards you can skip straight to Step 5.
 
 1. Install Docker [(link)](https://docs.docker.com/get-docker/)
+   - You may need to enable virtualization on Windows. [Click this link for instructions](https://docs.docker.com/desktop/windows/troubleshoot/#virtualization) if you receive this error.
 2. Open in VS Code
 3. Install extensions.
 
@@ -35,3 +36,7 @@ There is some 1-time setup, but afterwards you can skip straight to Step 5.
 1. Issue: Receiving "Permission Denied" when running Docker commands inside the dev container.
 
    Solution: Rebuild container from command pallette (Control/Command+Shift+P)
+
+2. "Hardware assisted virtualization and data execution protection must be enabled in the BIOS".
+
+   Solution: Follow instructions in [this link](https://docs.docker.com/desktop/windows/troubleshoot/#virtualization) to allow virtualization
