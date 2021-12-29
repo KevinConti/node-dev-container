@@ -9,7 +9,14 @@ It also includes some nicities - A nice theme, a standardized formatting policy 
 There is some 1-time setup, but afterwards you can skip straight to Step 5.
 
 1. Install Docker [(link)](https://docs.docker.com/get-docker/)
+
    - You may need to enable virtualization on Windows. [Click this link for instructions](https://docs.docker.com/desktop/windows/troubleshoot/#virtualization) if you receive this error.
+   - If you haven't already installed WSL 2, you'll need to run this command in a Powershell window:
+
+     `wsl --install -d Ubuntu`
+
+     More on WSL [here](https://docs.microsoft.com/en-us/windows/wsl/install)
+
 2. Open in VS Code
 3. Install extensions.
 
