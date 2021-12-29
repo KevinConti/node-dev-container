@@ -1,0 +1,42 @@
+{
+  "name": "Dev Containers Example",
+  "dockerFile": "Dockerfile",
+  "appPort": [3000],
+  "runArgs": ["-u", "node"],
+  "mounts": [
+    "type=bind,source=/var/run/docker.sock,target=/var/run/docker.sock"
+  ],
+  "settings": {
+    "workbench.colorTheme": "Night Owl",
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "editor.formatOnSave": true,
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+  },
+  "postCreateCommand": "npm install",
+  "extensions": [
+    "sdras.night-owl",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "coenraads.bracket-pair-colorizer-2",
+    "ms-azuretools.vscode-docker"
+  ],
+  // Setup Docker
+  "features": {
+    "docker-from-docker": {
+      "version": "latest",
+      "moby": true
+    },
+    // Give sudo permission
+    "common": {
+      "username": "automatic",
+      "uid": "automatic",
+      "gid": "automatic",
+      "installZsh": true,
+      "installOhMyZsh": true,
+      "upgradePackages": true,
+      "nonFreePackages": false
+    }
+  }
+}
