@@ -11,17 +11,17 @@ There is some 1-time setup, but afterwards you can skip straight to Step 5.
 1. Install Docker [(link)](https://docs.docker.com/get-docker/)
 
    - You may need to enable virtualization on Windows. [Click this link for instructions](https://docs.docker.com/desktop/windows/troubleshoot/#virtualization) if you receive this error.
-   - If you haven't already installed WSL 2, you'll need to run this command in a Powershell window:
+   - Additionally, for Windows users, if you haven't already installed WSL 2, you'll need to run this command in a Powershell window:
 
      `wsl --install -d Ubuntu`
 
      More on WSL [here](https://docs.microsoft.com/en-us/windows/wsl/install)
 
-2. Open in VS Code
+2. Open project in VS Code
 3. Install extensions.
 
-   - Docker by Microsoft
-   - Remote - Containers by Microsoft
+   - **Docker** by Microsoft
+   - **Remote** - Containers by Microsoft
 
 4. Control/Cmd+Shift+P (Command Pallete) -> Reload Window
 5. Click bottom left -> Open in Container
