@@ -6,7 +6,7 @@ The dev container creates a developer environment that automatically includes th
 
 It also includes some nicities - A nice theme, a standardized formatting policy (so all developers will have code formatted the same way, preventing most formatting issues), and some other odds-and-ends (colorized brackets FTW!).
 
-There is some 1-time setup, but afterwards you can skip straight to Step 4.
+There is some 1-time setup, but afterwards you can skip straight to Step 5.
 
 1. Install Docker [(link)](https://docs.docker.com/get-docker/)
 1. Open in VS Code
